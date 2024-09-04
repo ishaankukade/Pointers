@@ -1,6 +1,12 @@
 # Pointers
 # THEORY
 A pointer in C++ is a variable that stores the memory address of another variable. Pointers are used for dynamic memory allocation, arrays, and functions.
+When we increment a pointer, we increase the pointer by the size of the data type to which it points. ANd since an arrays data is in a contigious manner, if we increment the pointer, the index also gets incremented.
+
+How do we use pointers?
+1. Define a pointer variable
+2. Assigning the address of a variable to a pointer using the unary operator (&) which returns the address of that variable.
+3. Accessing the value stored in the address using unary operator (*) which returns the value of the variable located at the address specified.
 # Syntax
 data_type *pointer_name;
 
